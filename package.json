@@ -2,6 +2,7 @@
   "name": "kk-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kiyanooshkh.github.io/kk-dashboard/",
   "dependencies": {
     "@material-ui/core": "^1.4.3",
     "@material-ui/icons": "^2.0.1",
