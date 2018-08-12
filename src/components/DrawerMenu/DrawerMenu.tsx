@@ -9,8 +9,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import * as React from 'react';
-import { mailFolderListItems, otherMailFolderListItems } from '../../common/tileData';
 import Styles from './Styles';
+import { mailFolderListItems } from './TileData';
 
 // tslint:disable-next-line:interface-name
 interface State {
@@ -50,8 +50,6 @@ public state = {
         <div className={this.props.classes.toolbar} />
         <Divider />
         <List>{mailFolderListItems}</List>
-        <Divider />
-        <List>{otherMailFolderListItems}</List>
       </div>
     );
 
