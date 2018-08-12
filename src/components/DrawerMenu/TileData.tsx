@@ -1,37 +1,30 @@
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
+import DashboardIcon from '@material-ui/icons/Dashboard';
 import SendIcon from '@material-ui/icons/Send';
-import StarIcon from '@material-ui/icons/Star';
+import TableChartIcon from '@material-ui/icons/TableChart';
 import * as React from 'react';
 
-export const mailFolderListItems = (
+export const MenuItems = (
   <div>
     <ListItem button={true}>
       <ListItemIcon>
-        <InboxIcon />
+        <DashboardIcon />
       </ListItemIcon>
-      <ListItemText primary="Inbox" />
+      <ListItemText primary="Dashboard" />
     </ListItem>
     <ListItem button={true}>
       <ListItemIcon>
-        <StarIcon />
+        <TableChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Starred" />
+      <ListItemText primary="Tables" />
     </ListItem>
     <ListItem button={true}>
       <ListItemIcon>
         <SendIcon />
       </ListItemIcon>
-      <ListItemText primary="Send mail" />
-    </ListItem>
-    <ListItem button={true}>
-      <ListItemIcon>
-        <DraftsIcon />
-      </ListItemIcon>
-      <ListItemText primary="Drafts" />
+      <ListItemText primary="Contact Us" />
     </ListItem>
   </div>
 );

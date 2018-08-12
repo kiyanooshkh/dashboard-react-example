@@ -24,6 +24,12 @@ export const Styles = (theme: Theme) => createStyles({
         position: 'relative',
       },
     },
+    logo:{
+      fontSize: 16,
+      fontWight: 700,
+      padding: 23,
+      textAlign: 'center',
+    },
     navIconHide: {
       [theme.breakpoints.up('md')]: {
         display: 'none',

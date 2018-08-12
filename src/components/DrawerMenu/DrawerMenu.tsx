@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import * as React from 'react';
 import Styles from './Styles';
-import { mailFolderListItems } from './TileData';
+import { MenuItems } from './TileData';
 
 // tslint:disable-next-line:interface-name
 interface State {
@@ -24,6 +24,7 @@ interface Props {
     content: string;
     drawerPaper: string;
     root: string;
+    logo: string;
     navIconHide: string;
     toolbar: string;
   };
@@ -47,9 +48,9 @@ public state = {
 
     const drawer = (
       <div>
-        <div className={this.props.classes.toolbar} />
+        <div className={classes.logo}>Company Logo</div>
         <Divider />
-        <List>{mailFolderListItems}</List>
+        <List>{MenuItems}</List>
       </div>
     );
 
