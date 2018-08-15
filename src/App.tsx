@@ -1,5 +1,5 @@
 import * as React from 'react';
-import DrawerMenu from './components/DrawerMenu/DrawerMenu';
+import DrawerMenu from './components/drawer-menu/DrawerMenu';
 
 class App extends React.Component {
   public render() {

@@ -6,25 +6,27 @@ import SendIcon from '@material-ui/icons/Send';
 import TableChartIcon from '@material-ui/icons/TableChart';
 import * as React from 'react';
 
-export const MenuItems = (
+export const menuItems = (
   <div>
     <ListItem button={true}>
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItemText primary="Dashboard" />
+      <ListItemText primary='Dashboard' />
     </ListItem>
     <ListItem button={true}>
       <ListItemIcon>
         <TableChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Tables" />
+      <ListItemText primary='Tables' />
     </ListItem>
     <ListItem button={true}>
       <ListItemIcon>
         <SendIcon />
       </ListItemIcon>
-      <ListItemText primary="Contact Us" />
+      <ListItemText primary='Contact Us' />
     </ListItem>
   </div>
 );
+
+export default menuItems;
