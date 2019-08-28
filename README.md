@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/kiyanooshkh/kk-dashboard.svg?branch=master)](https://travis-ci.org/kiyanooshkh/kk-dashboard)
+[![Build Status](https://travis-ci.org/kiyanooshkh/react-dashboard-example.svg?branch=master)](https://travis-ci.org/kiyanooshkh/kk-dashboard)
 
-https://kiyanooshkh.github.io/kk-dashboard/
+https://kiyanooshkh.github.io/react-dashboard-example/
 
 How to run
 
